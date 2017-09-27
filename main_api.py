@@ -9,7 +9,7 @@ types= 'multiple'
 url = main_api + urllib.parse.urlencode({'amount': amount})
 print(url)
 json_data = requests.get(url).json()
-print(json_data)
+#print(json_data)
 json_response= json_data['response_code']
 print('response code:',json_response)
 print("enter the index")
